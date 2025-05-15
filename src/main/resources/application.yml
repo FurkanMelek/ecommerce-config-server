@@ -15,5 +15,5 @@ spring:
           clone-on-start: true
 encrypt:
   key: mySecretKey123456
-   # The key for Cipher, - crypted DB connection info
+   # The Cipher key, for sensitive infos like DB conn, JWT key...
    # I Prefer that way to more security. İf you have not my key, so you will not get my DB connections info
