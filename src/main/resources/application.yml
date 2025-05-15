@@ -14,4 +14,6 @@ spring:
           default-label: main
           clone-on-start: true
 encrypt:
-  key: mySecretKey123456 # Bu key cipher için kullanılıyor
+  key: mySecretKey123456
+   # The key for Cipher, - crypted DB connection info
+   # I Prefer that way to more security. İf you have not my key, so you will not get my DB connections info
